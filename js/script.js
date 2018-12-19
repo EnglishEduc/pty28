@@ -9,7 +9,7 @@ $(window).scroll(function () {
 
 
 $(window).scroll(function() {
-    if($(this).scrollTop() > 100) {
+    if($(this).scrollTop() > 10) {
         $('.nav_custom').addClass('nav_active');
     } else {
         $('.nav_custom').removeClass('nav_active');

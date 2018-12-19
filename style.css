@@ -11,15 +11,17 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
   list-style-type: none;
 }
 
+
 .button {
-  background: #B52C3C;
+  background: #f39e1d;
   color: #fff;
   padding: 10px 20px;
   border-radius: 35px;
@@ -27,7 +29,8 @@ ul {
 }
 .button:hover {
   color: #fff;
-  box-shadow: 0 8px 15px rgba(181, 44, 60, 0.4);
+  background-color: transparent;
+  border: 1px solid #f39e1d;
   text-decoration: none;
   cursor: pointer;
 }
@@ -161,7 +164,7 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 /* page_heading end */
 /*contact nav style start */
 .contact-nav {
-  background: #B52C3C;
+  background: #2a4a71;
   padding: 9px 0;
   transition: all 0.2s;
   min-height: 45px;
@@ -218,6 +221,8 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
   background: #fff;
   border-bottom: 1px solid #cccccc;
 }
+
+/* Logo */
 .nav_custom.nav_active .navbar-brand h2 {
   color: #B52C3C;
 }
@@ -241,10 +246,10 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 }
 .nav_custom ul li a {
   color: #fff;
-  transition: all 0.7s;
+  transition: all 0.3s;
 }
 .nav_custom ul li a:hover {
-  color: #B52C3C;
+  color: #f39e1d;
 }
 .nav_custom .modal-content {
   border-radius: 60px;
@@ -258,7 +263,7 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
   padding: 0;
   border-radius: 0;
   top: 95%;
-  border-top: 3px solid #B52C3C;
+  border-top: 3px solid #f39e1d;
 }
 
 .dropdown-divider {
@@ -273,7 +278,7 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 }
 .dropdown-item:hover {
   color: #fff !important;
-  background: #B52C3C !important;
+  background: #2a4a71 !important;
 }
 
 /* nav style end */
@@ -282,21 +287,36 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 
 /* header style start */
 header .cover {
-  min-height: calc(100vh - 45px);
-  height: 100%;
-  background: rgba(34, 34, 34, 0.6);
+  min-height: calc(93vh - 45px);
+  height: 93vh;
+  background: rgba(34, 34, 34, 0.8);
+  
 }
 header .cover .content {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
+  margin-top: 50px;
+}
+header .cover .content h5 {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 header .cover .content h1 {
   font-weight: bold;
-  margin-bottom: 40px;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
-header .cover .content p {
-  margin-bottom: 40px;
+header .cover .content h4 {
+  margin-bottom: 20px;
 }
+header .cover .content ul {
+  margin-bottom: 55px;
+}
+header .cover .content li {
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
 
 /* header style end */
 /* quote style start */
