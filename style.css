@@ -29,8 +29,7 @@ ul {
 }
 .button:hover {
   color: #fff;
-  background-color: transparent;
-  border: 1px solid #f39e1d;
+  background-color: #B52C3C;
   text-decoration: none;
   cursor: pointer;
 }
@@ -289,7 +288,7 @@ input:focus ~ .highlight, textarea:focus ~ .highlight {
 header .cover {
   min-height: calc(93vh - 45px);
   height: 93vh;
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(16, 16, 16, 0.8);
   
 }
 header .cover .content {
@@ -314,6 +313,7 @@ header .cover .content ul {
 }
 header .cover .content li {
   margin-left: 40px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -340,7 +340,7 @@ header .cover .content li {
 
 /* about style start */
 .about {
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 .about figure {
   position: relative;
@@ -423,13 +423,13 @@ header .cover .content li {
 
 /* counter_section style start */
 .counter_section {
-  background: url(images/slider/5.jpg);
+  background: url(images/slider/4.jpg);
   background-size: cover;
   background-position: center;
 }
 .counter_section .cover {
   padding: 7rem 0 10rem;
-  background: rgba(181, 44, 60, 0.7);
+  background: rgba(34, 34, 34, 0.8);
 }
 .counter_section .cover h1 {
   color: #fff;
@@ -538,8 +538,8 @@ header .cover .content li {
 
 /* promo style start */
 .promo {
-  padding: 8rem 0;
-  background: url(images/bg_pattern.png);
+  padding: 7rem 0;
+  background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(22, 23, 26, 0.8)), url(images/bg_button.jpg);
   background-size: cover;
 }
 .promo h1 {
@@ -634,8 +634,8 @@ header .cover .content li {
 
 /* testimonial style start */
 .testimonial {
-  background: #B52C3C;
-  padding: 6rem 0 5rem;
+  background: #2a4a71;
+  padding: 2rem 0 5rem;
 }
 .testimonial .content i {
   color: rgba(255, 255, 255, 0.3);
@@ -804,7 +804,7 @@ header .cover .content li {
   right: 20px;
   width: 50px;
   height: 70px;
-  background: #B52C3C;
+  background: #2a4a71;
   border-radius: 8px;
 }
 .blog figure .image .date h5 {
@@ -826,6 +826,16 @@ header .cover .content li {
   color: #222;
   text-decoration: none;
   transition: all 0.3s;
+}
+.blog figure figcaption span a {
+  display:block;
+  text-align: right;
+  color: #B52C3C;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.blog figure figcaption span a:hover {
+  color: #222;
 }
 .blog figure figcaption h5 a:hover {
   color: #B52C3C;
